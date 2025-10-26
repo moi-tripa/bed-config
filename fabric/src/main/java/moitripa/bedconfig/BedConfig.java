@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package moitripa.bedconfig;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class BedConfig implements ModInitializer {
     
     @Override
     public void onInitialize() {

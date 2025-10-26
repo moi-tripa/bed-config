@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package moitripa.bedconfig.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import moitripa.bedconfig.Constants;
+import moitripa.bedconfig.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

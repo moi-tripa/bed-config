@@ -1,27 +1,22 @@
 {
     "schemaVersion": 1,
-    "id": "mod_id",
+    "id": "bedconfig",
     "version": "${version}",
     "name": "${mod_name}",
     "description": "${description}",
     "authors": [
         "${mod_author}"
     ],
-    "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
-    },
     "license": "${license}",
-    "icon": "assets/modid/${mod_id}.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "moitripa.bedconfig.BedConfig"
         ]
     },
     "mixins": [
-        "${mod_id}.mixins.json",
-        "${mod_id}.fabric.mixins.json"
+        "bedconfig.mixins.json",
+        "bedconfig.fabric.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=0.14",

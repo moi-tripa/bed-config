@@ -1,6 +1,6 @@
-package com.example.examplemod;
+package moitripa.bedconfig;
 
-import com.example.examplemod.platform.Services;
+import moitripa.bedconfig.platform.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
 
