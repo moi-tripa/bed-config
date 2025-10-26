@@ -8,6 +8,7 @@
         "${mod_author}"
     ],
     "license": "${license}",
+    "icon": "bedconfig.png",
     "environment": "*",
     "entrypoints": {
         "main": [
